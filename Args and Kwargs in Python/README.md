@@ -1,10 +1,10 @@
 # ARGS AND KWARGS in Python
 
-1. *args (Non-Keyword Arguments):
-    * When you’re unsure about the number of arguments to pass to a function, you can use *args.
+1. `*args` (Non-Keyword Arguments):
+    * When you’re unsure about the number of arguments to pass to a function, you can use `*args`.
     * It allows you to pass a variable number of non-keyword arguments to a function.
     * Inside the function, the arguments are treated as a tuple.
-    * Example using *args:
+    * Example using `*args`:
 
 ```
 def adder(*num):
@@ -17,10 +17,10 @@ adder(1, 2, 3, 5, 6) # Output: Sum: 17
 
 ```
 
-2. **kwargs (Keyword Arguments):
-    * While *args handles non-keyword arguments, **kwargs deals with keyword arguments.
+2. `**kwargs` (Keyword Arguments):
+    * While *args handles non-keyword arguments, `**kwargs` deals with keyword arguments.
     * It allows you to pass a variable number of keyword arguments (as a dictionary) to a function.
-    * Example using **kwargs:
+    * Example using `**kwargs`:
 
 ```
 def display_info(**details):
@@ -35,7 +35,7 @@ display_info(name="Alice", age=30, city="Wonderland")
 
 ```
 
-3. Combining *args and **kwargs:
+3. Combining `*args` and `**kwargs`:
 
 ```
 def example_function(*args, **kwargs):
