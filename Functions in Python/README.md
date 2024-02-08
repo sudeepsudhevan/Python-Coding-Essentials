@@ -68,3 +68,4 @@ print(f"The factorial of {num} is: {factorial_result}")
 6. **More Sample Code snippets**
    * [Blind Auction](https://gist.github.com/sudeepsudhevan/362a431bcfe392848b754ff0fc833b81)
    * [Travel log](https://gist.github.com/sudeepsudhevan/60f0ff5fc27529cd9499995c27e67852)
+   * [Prime number or not](https://gist.github.com/sudeepsudhevan/897f7c63c3ccbf4bb088b17e2d20e131)
