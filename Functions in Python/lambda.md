@@ -16,8 +16,8 @@ greet_user = lambda name: print(f'Hey there, {name}')
 greet_user('Delilah')  # Output: Hey there, Delilah
 ```
    
-3. Using Lambda with map()
-   The map() function applies a given function to each item in an iterable. Here’s an example that squares each number in a list
+3. Using Lambda with `map()`
+   The `map()` function applies a given function to each item in an iterable. Here’s an example that squares each number in a list
 
 ```
 numbers = [1, 2, 3, 4, 5]
@@ -25,8 +25,8 @@ squared_numbers = list(map(lambda x: x**2, numbers))
 print(squared_numbers)  # Output: [1, 4, 9, 16, 25]
 ```
    
-4. Using Lambda with filter()
-   The filter() function filters elements based on a given condition. In this example, we filter out even numbers from a list
+4. Using Lambda with `filter()`
+   The `filter()` function filters elements based on a given condition. In this example, we filter out even numbers from a list
 
 ```
 my_list = [1, 5, 4, 6, 8, 11, 3, 12]
