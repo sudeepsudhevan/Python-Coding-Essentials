@@ -212,7 +212,7 @@ else:
     print(f'{checking_no} is not a Armstrong number')
 ```
 
-11. Factorial of a Number
+11. **Factorial of a Number**
 
 ```
 # Facorial of a number
@@ -234,7 +234,7 @@ else:
     print(f'Factorial of {num} is {factorial}')  
 ```
 
-12. Print star in triangle
+12. **Print star in triangle**
 
 ```
 rows = int(input('Enter the no.of rows: '))
@@ -262,4 +262,19 @@ for a in range(rows, 0, -1):
 # * * *
 # * *
 # *
-```    
+```
+
+13. **Count each elements in a List using dictionary**
+
+```
+my_list = ["a", "c", "a", "a", "b", "b", "c", "c", "d"]
+
+counts = {}
+for element in my_list:
+    if element not in counts:
+        counts[element] = 0
+    counts[element] += 1
+
+print(counts)
+```
+    
