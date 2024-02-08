@@ -3,7 +3,7 @@
 1. **Print Hello World in python**
 
 syntax of print : 
-  print(object(s), sep=separator, end=end, file=file, flush=flush)
+  `print(object(s), sep=separator, end=end, file=file, flush=flush)`
 
 ```
 print('Hello World')
