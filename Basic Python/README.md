@@ -1,6 +1,6 @@
 # Python Objects
 
-## A string object
+### A string object
 my_string = "Hello, world!"
 
 ## An integer object
