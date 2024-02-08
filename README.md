@@ -64,7 +64,7 @@ else:
 
   * A year is a leap year if it is divisible by 4, except for century years (years ending with 00).
   * A century year is a leap year only if it is perfectly divisible by 400.
-https://gist.github.com/sudeepsudhevan/901562c5d649069b6c461c90189a2cff
+
 ```
 # To get the year (integer input) from the user:
 year = int(input("Enter a year: "))
