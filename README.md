@@ -97,7 +97,38 @@ for i in range(1, 101):
         print(i)
 ```
 
-7. **Prime Numbers**
+7. Simple Calculator
+
+```
+# Calculator using if elif
+
+num1 = float(input('Enter the First Number: '))
+operation = int(input('\n1. Addition            2. Substraction\n3. Multiplication      4. Divison\nEnter Corresponding number for the operation: '))
+num2 = float(input('\nEnter the Second Number: '))
+
+# calculate = f'{(num1)}{operation}{num2}'
+# print(type(calculate))
+# print(f'Result is: {eval(calculate)}')
+
+result = 0
+
+if operation == 1:
+    result = num1 + num2
+elif operation == 2:
+    result = num1 - num2
+elif operation == 3:
+    result = num1 * num2
+elif operation == 4:
+    result = num1 / num2
+    # remainder = num1 % num2
+    # print(f'Remainder is: {remainder}')
+else: 
+    print('Wrong Input')
+
+print(f'Result is {result}')
+```
+
+8. **Prime Numbers**
 
 ```
 # Program to check if a number is prime or not
@@ -124,7 +155,32 @@ elif num > 1:
 
 ```
 
-10. **Python program to check if the number is an Armstrong number or not**
+9. **Palindrome**
+ 
+```
+# Palindrome
+
+word = input('Enter a Word or Number for check it is a Palindrome: ').lower()
+
+# if word == word[::-1]:
+#     print(f'Above word {word} is a Palindrome')
+# else:
+#     print(f'Above word {word} is not a Palindrome')
+
+reversed_string = ''
+
+for letter in word:
+    reversed_string = letter + reversed_string 
+
+# print(reversed_string)
+
+if word == reversed_string:
+    print(f'Above word {word} is a Palindrome')
+else:
+    print(f'Above word {word} is not a Palindrome')
+``` 
+
+11. **Python program to check if the number is an Armstrong number or not**
 
 ```
 num = int(input('Enter a Number: '))
