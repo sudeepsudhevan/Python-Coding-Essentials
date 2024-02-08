@@ -124,3 +124,86 @@ elif num > 1:
 
 ```
 
+10. **Python program to check if the number is an Armstrong number or not**
+
+```
+num = int(input('Enter a Number: '))
+
+checking_no = num
+sum = 0
+
+while num > 0:
+    remainder = num % 10
+    sum = sum + remainder ** 3
+    num //=10                   # floor division num = num // 10
+
+if sum == checking_no:
+    print(f'{checking_no} is a Armstrong number')
+else:
+    print(f'{checking_no} is not a Armstrong number')
+```
+
+```
+# Another method
+num = str(num)
+
+for i in num:
+     sum += int(i) ** 3
+
+if sum == checking_no:
+    print(f'{checking_no} is a Armstrong number')
+else:
+    print(f'{checking_no} is not a Armstrong number')
+```
+
+11. Factorial of a Number
+
+```
+# Facorial of a number
+
+num = int(input('Enter a number to find the factorial: '))
+
+factorial = 0
+
+if num == 0 or num == 1:
+    factorial = 1
+elif num > 1:
+    factorial = 1
+    for i in range(2, num+1):
+        factorial = factorial * i
+
+if num < 0:
+    print('Factorial Does not exist for negative number.')
+else:
+    print(f'Factorial of {num} is {factorial}')  
+```
+
+12. Print star in triangle
+
+```
+rows = int(input('Enter the no.of rows: '))
+
+for a in range(0, rows+1, 1):
+    for b in range(a):
+        print('*', end=' ')
+    print()    
+
+# Enter the no.of rows: 4
+
+# *
+# * *
+# * * *
+# * * * *
+
+
+for a in range(rows, 0, -1):
+    for b in range(a):
+        print('*', end=' ')
+    print() 
+
+# Enter the no.of rows: 4
+# * * * * 
+# * * *
+# * *
+# *
+```    
