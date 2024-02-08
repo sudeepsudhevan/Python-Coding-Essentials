@@ -64,3 +64,6 @@ factorial_result = factorial(num)
 print(f"The factorial of {num} is: {factorial_result}")
 
 ```
+
+6. **Blind Auction**
+   [Code snippet](https://gist.github.com/sudeepsudhevan/362a431bcfe392848b754ff0fc833b81)
