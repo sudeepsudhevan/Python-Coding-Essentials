@@ -69,5 +69,6 @@ def greet():
 print(greet())  # Output: "HELLO!"
 ```
 
-Advance Decorator
+6. **Advance Decorator**
+
 [Code Snippet](https://gist.github.com/sudeepsudhevan/2e6f8089d5abe220640ce9bdb51e099d)
