@@ -9,7 +9,24 @@ syntax of print :
 print('Hello World')
 ```
 
-* Python BMI Calculator
+* **Swap Two numbers**
+
+```
+num1 = int(input('Enter the First Number: '))
+num2 = int(input('Enter the Second Number: '))
+
+print(f'Initially num1 is {num1}')
+print(f'Initially num2 is {num2}')
+
+swap = num1
+num1 = num2
+num2 = swap
+
+print(f'\nNow num1 is {num1}')
+print(f'Now num2 is {num2}')
+```
+
+* **Python BMI Calculator**
 
 ```
 # BMI Calculator in Python
@@ -28,7 +45,7 @@ bmi = weight / (height_meters * height_meters)
 print(f"Your Body Mass Index (BMI) is: {bmi:.2f}")
 ```
 
-* Input a number. Find it odd or even
+* **Input a number. Find it odd or even**
 
 ```
 # Python program to check if the input number is odd or even.
@@ -43,7 +60,7 @@ else:
     print("{0} is **Odd**.".format(num))
 ```
 
-* Python program to check if a year is a leap year or not
+* **Python program to check if a year is a leap year or not**
 
   * A year is a leap year if it is divisible by 4, except for century years (years ending with 00).
   * A century year is a leap year only if it is perfectly divisible by 400.
@@ -62,7 +79,7 @@ else:
     print(f"{year} is not a leap year")
 ```
 
-* FizzBuzz
+* **FizzBuzz**
   
 The task is to write a program that prints the numbers from 1 to 100, but for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. 
 For numbers which are multiples of both three and five print “FizzBuzz”.
@@ -80,4 +97,30 @@ for i in range(1, 101):
         print(i)
 ```
 
+* **Prime Numbers**
+
+```
+# Program to check if a number is prime or not
+num = 29  # You can change this value to check other integers
+
+# Define a flag variable
+flag = False
+
+if num == 1:
+    print(f"{num} is not a prime number")
+elif num > 1:
+    # Check for factors
+    for i in range(2, num):
+        if (num % i) == 0:
+            # If a factor is found, set flag to True and break out of the loop
+            flag = True
+            break
+
+    # Check if flag is True
+    if flag:
+        print(f"{num} is not a prime number")
+    else:
+        print(f"{num} is a prime number")
+
+```
 
