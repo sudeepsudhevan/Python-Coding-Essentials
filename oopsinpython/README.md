@@ -17,7 +17,7 @@ dog2 = Dog(breed="Labrador", age=2)
 
 print(f"{dog1.breed} is {dog1.age} years old")
 print(f"{dog2.breed} is {dog2.age} years old")
-AI-generated code. Review and use carefully. More info on FAQ.
+
 Output:
 Golden Retriever is 3 years old
 Labrador is 2 years old
@@ -39,7 +39,7 @@ class Dog(Animal):
 dog1 = Dog()
 dog1.eat()
 dog1.bark()
-AI-generated code. Review and use carefully. More info on FAQ.
+
 Output:
 I can eat!
 I can bark! Woof woof!!
@@ -62,6 +62,6 @@ class Computer:
 
 c = Computer()
 c.sell()  # Output: Selling Price: 900
-```
 c.setMaxPrice(1000)
 c.sell()  # Output: Selling Price: 1000
+```
