@@ -277,4 +277,6 @@ for element in my_list:
 
 print(counts)
 ```
-    
+
+14. **Rock Paper Scissor Game**
+    * [Code Snippet](https://gist.github.com/sudeepsudhevan/7d0564877076e0df4f86a602d86be96f)    
