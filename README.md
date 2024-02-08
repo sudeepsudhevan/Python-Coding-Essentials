@@ -28,7 +28,7 @@ bmi = weight / (height_meters * height_meters)
 print(f"Your Body Mass Index (BMI) is: {bmi:.2f}")
 ```
 
-* Enter a number. Find it odd or even
+* Input a number. Find it odd or even
 
 ```
 # Python program to check if the input number is odd or even.
@@ -62,5 +62,21 @@ else:
     print(f"{year} is not a leap year")
 ```
 
+* FizzBuzz
+  The task is to write a program that prints the numbers from 1 to 100, but for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For     
+numbers which are multiples of both three and five print “FizzBuzz”.
+
+```
+# FizzBuzz in Python
+for i in range(1, 101):
+    if number % 3 == 0 and number % 5 == 0: # check if the number is divisible by both 3 and 5
+        print("FizzBuzz")
+    elif i % 3 == 0: # check if the number is divisible by 3
+        print("Fizz")
+    elif i % 5 == 0: # check if the number is divisible by 5
+        print("Buzz")
+    else: # otherwise, just print the number
+        print(i)
+```
 
 
