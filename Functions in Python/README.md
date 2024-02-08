@@ -65,5 +65,6 @@ print(f"The factorial of {num} is: {factorial_result}")
 
 ```
 
-6. **Blind Auction**
-   * [Code snippet](https://gist.github.com/sudeepsudhevan/362a431bcfe392848b754ff0fc833b81)
+6. **More Sample Code snippets**
+   * [Blind Auction](https://gist.github.com/sudeepsudhevan/362a431bcfe392848b754ff0fc833b81)
+   * [Travel log](https://gist.github.com/sudeepsudhevan/60f0ff5fc27529cd9499995c27e67852)
