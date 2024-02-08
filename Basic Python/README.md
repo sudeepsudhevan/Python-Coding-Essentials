@@ -1,22 +1,23 @@
 # Python Objects
 
 ### A string object
-my_string = "Hello, world!"
+`my_string = "Hello, world!"`
 
-## An integer object
-my_integer = 10
+### An integer object
+`my_integer = 10`
 
-## A list object
-my_list = [1, 2, 3, 4, 5]
+### A list object
+`my_list = [1, 2, 3, 4, 5]`
 
-## A dictionary object
-my_dictionary = {"name": "Alice", "age": 25}
+### A dictionary object
+`my_dictionary = {"name": "Alice", "age": 25}`
 
-## A function object
+### A function object
+```
 def my_function(x):
   return x * 2
-
-## A class object
+```
+### A class object
 ```
 class MyClass:
   def _init_(self, name):
