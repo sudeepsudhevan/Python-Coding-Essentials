@@ -31,5 +31,4 @@ my_instance = MyClass("Alice")
 
 # Calling a method on an object
 my_instance.greet()
-
 ```
