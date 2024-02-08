@@ -45,8 +45,8 @@ else:
 
 * Python program to check if a year is a leap year or not
 
- * A year is a leap year if it is divisible by 4, except for century years (years ending with 00).
- * A century year is a leap year only if it is perfectly divisible by 400.
+  * A year is a leap year if it is divisible by 4, except for century years (years ending with 00).
+  * A century year is a leap year only if it is perfectly divisible by 400.
 
 ```
 # To get the year (integer input) from the user:
