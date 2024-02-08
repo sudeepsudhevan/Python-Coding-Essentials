@@ -26,7 +26,7 @@ print(f'\nNow num1 is {num1}')
 print(f'Now num2 is {num2}')
 ```
 
-* **Python BMI Calculator**
+3. **Python BMI Calculator**
 
 ```
 # BMI Calculator in Python
@@ -45,7 +45,7 @@ bmi = weight / (height_meters * height_meters)
 print(f"Your Body Mass Index (BMI) is: {bmi:.2f}")
 ```
 
-* **Input a number. Find it odd or even**
+4. **Input a number. Find it odd or even**
 
 ```
 # Python program to check if the input number is odd or even.
@@ -60,7 +60,7 @@ else:
     print("{0} is **Odd**.".format(num))
 ```
 
-* **Python program to check if a year is a leap year or not**
+5. **Python program to check if a year is a leap year or not**
 
   * A year is a leap year if it is divisible by 4, except for century years (years ending with 00).
   * A century year is a leap year only if it is perfectly divisible by 400.
@@ -79,7 +79,7 @@ else:
     print(f"{year} is not a leap year")
 ```
 
-* **FizzBuzz**
+6. **FizzBuzz**
   
 The task is to write a program that prints the numbers from 1 to 100, but for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. 
 For numbers which are multiples of both three and five print “FizzBuzz”.
@@ -97,7 +97,7 @@ for i in range(1, 101):
         print(i)
 ```
 
-* **Prime Numbers**
+7. **Prime Numbers**
 
 ```
 # Program to check if a number is prime or not
