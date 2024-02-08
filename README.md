@@ -41,9 +41,26 @@ if (num % 2) == 0:
     print("{0} is **Even**.".format(num))
 else:
     print("{0} is **Odd**.".format(num))
-
 ```
 
+* Python program to check if a year is a leap year or not
+
+ * A year is a leap year if it is divisible by 4, except for century years (years ending with 00).
+ * A century year is a leap year only if it is perfectly divisible by 400.
+
+```
+# To get the year (integer input) from the user:
+year = int(input("Enter a year: "))
+# Check if it's a century year (ending with 00)
+if (year % 400 == 0) and (year % 100 == 0):
+    print(f"{year} is a leap year")
+# Check if it's not a century year
+elif (year % 4 == 0) and (year % 100 != 0):
+    print(f"{year} is a leap year")
+# If not divisible by both 400 (century year) and 4 (not century year)
+else:
+    print(f"{year} is not a leap year")
+```
 
 
 
