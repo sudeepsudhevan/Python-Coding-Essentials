@@ -35,3 +35,7 @@ adults = {name: age for name, age in name_to_age.items() if age > 25}
 print(adults)
 # Output: {'Alice': 30}
 ```
+
+Sample code
+
+  * [Celsius to fahrenheit](https://gist.github.com/sudeepsudhevan/08d258b1e9f52ca214009a518c3e6761)
