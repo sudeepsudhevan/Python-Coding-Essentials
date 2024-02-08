@@ -69,6 +69,7 @@ def greet():
 print(greet())  # Output: "HELLO!"
 ```
 
-6. **Advance Decorator**
+6. **Decorator Sample Code**
 
-[Code Snippet](https://gist.github.com/sudeepsudhevan/2e6f8089d5abe220640ce9bdb51e099d)
+  * [sample 1](https://gist.github.com/sudeepsudhevan/2e6f8089d5abe220640ce9bdb51e099d)
+  * [sample 2](https://gist.github.com/sudeepsudhevan/8d2c54dd37d56fc17d35c33004b3cfd4)
