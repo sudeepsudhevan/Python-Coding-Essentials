@@ -1,16 +1,24 @@
 # Python Objects
 
 ### A string object
-`my_string = "Hello, world!"`
+```
+my_string = "Hello, world!"
+```
 
 ### An integer object
-`my_integer = 10`
+```
+my_integer = 10
+```
 
 ### A list object
-`my_list = [1, 2, 3, 4, 5]`
+```
+my_list = [1, 2, 3, 4, 5]
+```
 
 ### A dictionary object
-`my_dictionary = {"name": "Alice", "age": 25}`
+```
+my_dictionary = {"name": "Alice", "age": 25}
+```
 
 ### A function object
 ```
