@@ -29,7 +29,7 @@ sum(1, 2)  # Output: 3
 
 ## Different Types of Arguments
 
-1. Positional Arguments:
+1. **Positional Arguments:**
  * These are the most common type of arguments. They are passed in the order defined by the function parameters.
 ```
 def add_numbers(a, b):
@@ -39,7 +39,7 @@ def add_numbers(a, b):
 add_numbers(2, 3)  # Output: Sum: 5
 ```
 
-2. Default Value Arguments:
+2. **Default Value Arguments:**
  * You can provide default values for function parameters. If an argument is not explicitly passed, the default value is used.
 ```
 def add_numbers(a=7, b=8):
@@ -50,7 +50,7 @@ add_numbers(2)  # Output: Sum: 10
 add_numbers()   # Output: Sum: 15
 ```
 
-3. Keyword Arguments:
+3. **Keyword Arguments:**
  * Arguments are assigned based on their names, regardless of their order.
 ```
 def display_info(first_name, last_name):
@@ -61,7 +61,7 @@ display_info(last_name="Cartman", first_name="Eric")
 # Output: First Name: Eric, Last Name: Cartman
 ```
 
-4. Arbitrary Arguments (Variable-Length Arguments) `*args`:
+4. **Arbitrary Arguments (Variable-Length Arguments) `*args`:**
  * Use an asterisk (`*`) before the parameter name to handle a varying number of arguments.
 ```
 def find_sum(*numbers):
@@ -74,7 +74,7 @@ find_sum(1, 2, 3)  # Output: Sum = 6
 find_sum(4, 9)     # Output: Sum = 13
 ```
 
-5. Arbitrary Arguments (Keyword Arguments) `**kwargs`:
+5. **Arbitrary Arguments (Keyword Arguments) `**kwargs`:**
    * **kwargs accepts keyword (or named) arguments.
 ```
 def display_info(**kwargs):
