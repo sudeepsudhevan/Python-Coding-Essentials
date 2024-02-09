@@ -1,6 +1,6 @@
 # `break` And `continue` in Python
 
-* ##`break` Statement:##
+* ## `break` Statement:
   * The break statement is used to terminate a loop immediately when a certain condition is met.
   * It is commonly used inside loops (such as for or while) to exit the loop prematurely.
   * Example using for loop:
@@ -13,7 +13,7 @@
   ```
   * the loop terminates when i equals 3.
 
-* ##`continue` Statement:##
+* ## `continue` Statement:
   * The continue statement skips the current iteration of a loop and proceeds to the next one.
   * It allows you to omit specific iterations based on a condition.
   * Example using for loop:
