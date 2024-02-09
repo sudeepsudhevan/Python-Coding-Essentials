@@ -61,7 +61,7 @@ display_info(last_name="Cartman", first_name="Eric")
 # Output: First Name: Eric, Last Name: Cartman
 ```
 
-4. **Arbitrary Arguments (Variable-Length Arguments) `*args`:**
+4. **Arbitrary Arguments (Variable-Length Arguments or positional arguments) `*args`:**
  * Use an asterisk (`*`) before the parameter name to handle a varying number of arguments.
 ```
 def find_sum(*numbers):
