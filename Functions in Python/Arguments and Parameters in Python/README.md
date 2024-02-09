@@ -61,7 +61,7 @@ display_info(last_name="Cartman", first_name="Eric")
 # Output: First Name: Eric, Last Name: Cartman
 ```
 
-4. Arbitrary Arguments (Variable-Length Arguments):
+4. Arbitrary Arguments (Variable-Length Arguments) `*args`:
  * Use an asterisk (`*`) before the parameter name to handle a varying number of arguments.
 ```
 def find_sum(*numbers):
@@ -72,4 +72,18 @@ def find_sum(*numbers):
 
 find_sum(1, 2, 3)  # Output: Sum = 6
 find_sum(4, 9)     # Output: Sum = 13
+```
+
+5. Arbitrary Arguments (Keyword Arguments) `**kwargs`:
+   * **kwargs accepts keyword (or named) arguments.
+```
+def display_info(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+
+display_info(first='Geeks', second='for', third='Geeks')
+# Output:
+# first: Geeks
+# second: for
+# third: Geeks
 ```
