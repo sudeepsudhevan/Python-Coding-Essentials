@@ -1,7 +1,7 @@
-# Mutable objects, such as lists, dictionaries, and sets, can be changed inside the function and the changes
-# will be reflected outside the function as well. This is similar to call by reference in some other languages.
-# Immutable objects, such as numbers, strings, and tuples, cannot be changed inside the function and the changes
-#  will not affect the original object outside the function. This is similar to call by value in some other languages
+# Mutable objects, such as lists, dictionaries, and sets, can be changed inside the function and the changes will be reflected outside the function as well. 
+# This is similar to call by reference in some other languages.
+# Immutable objects, such as numbers, strings, and tuples, cannot be changed inside the function and the changes will not affect the original object outside the function. 
+# This is similar to call by value in some other languages
 
 ###########################################################################################################
 
