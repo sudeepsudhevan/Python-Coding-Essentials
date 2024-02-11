@@ -36,7 +36,8 @@
     myfunc()
     print(x)  # Output: 300
     ```
-  * Use the `global` keyword when you need to work with global variables inside a function.  
- The local scope takes precedence over the global scope, but you can explicitly access global variables using the global keyword when necessary
+  * Use the `global` keyword when you need to work with global variables inside a function.
+    
+The local scope takes precedence over the global scope, but you can explicitly access global variables using the global keyword when necessary
     
           
