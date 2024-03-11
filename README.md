@@ -279,4 +279,7 @@ print(counts)
 ```
 
 14. **Rock Paper Scissor Game**
-    * [Code Snippet](https://gist.github.com/sudeepsudhevan/7d0564877076e0df4f86a602d86be96f)    
+    * [Code Snippet](https://gist.github.com/sudeepsudhevan/7d0564877076e0df4f86a602d86be96f)
+
+### Python Note
+[For Note gist Click here](https://gist.github.com/sudeepsudhevan/08f75d00eef49750519b0d8b8ab35427)
