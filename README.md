@@ -55,9 +55,9 @@ print(f"Your Body Mass Index (BMI) is: {bmi:.2f}")
 num = int(input("Enter a number: "))
 
 if (num % 2) == 0:
-    print("{0} is **Even**.".format(num))
+    print("{0} is Even.".format(num))
 else:
-    print("{0} is **Odd**.".format(num))
+    print("{0} is Odd.".format(num))
 ```
 
 5. **Python program to check if a year is a leap year or not**
@@ -69,7 +69,7 @@ else:
 # To get the year (integer input) from the user:
 year = int(input("Enter a year: "))
 # Check if it's a century year (ending with 00)
-if (year % 400 == 0) and (year % 100 == 0):
+if (year % 400 == 0):
     print(f"{year} is a leap year")
 # Check if it's not a century year
 elif (year % 4 == 0) and (year % 100 != 0):
