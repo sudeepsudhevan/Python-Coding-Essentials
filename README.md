@@ -283,7 +283,7 @@ print(counts)
 
 15. **Patterns**
     
-    *[Code Snippet](https://gist.github.com/sudeepsudhevan/566acdacd81595a98e00fc78e8c8f1e5)      
+    * [Code Snippet](https://gist.github.com/sudeepsudhevan/566acdacd81595a98e00fc78e8c8f1e5)      
 
 ### Python Note
 [For Note gist Click here](https://gist.github.com/sudeepsudhevan/08f75d00eef49750519b0d8b8ab35427)
