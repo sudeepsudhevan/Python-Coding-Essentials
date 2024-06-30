@@ -282,6 +282,7 @@ print(counts)
     * [Code Snippet](https://gist.github.com/sudeepsudhevan/7d0564877076e0df4f86a602d86be96f)
 
 15. **Patterns**
+    
     *[Code Snippet](https://gist.github.com/sudeepsudhevan/566acdacd81595a98e00fc78e8c8f1e5)      
 
 ### Python Note
