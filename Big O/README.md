@@ -110,12 +110,6 @@ print("Sorted array is:", array)
 
 ```
 
-* Drop Non-Dominant Terms
-    * In O(n2 + n), focus on O(n2) as it will dominate for large n.
-
-* Drop Constants
-    * O(2n) simplifies to O(n).
-
 ## 7. Big O: Different Term of inputs
 
 O(a + b)
@@ -137,6 +131,21 @@ def print_items(a,b):
             print(i,j)
 
 print_items(10,20)
+```
+
+## 8. Big O: Lists
+O(1)
+
+```py
+my_list.pop() # only remove the end term so not required reindexing
+my_list.append(5) # only adding the end term
+```
+
+O(n)
+
+```py
+my_list.pop(2) # after pop the item it require reindexing
+my_list.insert(1,"hi") # require reindexing
 ```
 
 ![Big O](https://github.com/user-attachments/assets/782ae9cc-423f-4d50-a389-17e6b8b9e0a8)
@@ -184,6 +193,11 @@ These ones are supposed to be the less efficient algorithms if their O(nlogn) co
 
 ![BIG O](https://github.com/user-attachments/assets/038c2251-6b97-45f3-abed-bb9f81d24974)
 
+* Drop Non-Dominant Terms
+    * In O(n2 + n), focus on O(n2) as it will dominate for large n.
+
+* Drop Constants
+    * O(2n) simplifies to O(n).
 
 Source:
 * [Big O cheatSheet](https://www.bigocheatsheet.com/)
