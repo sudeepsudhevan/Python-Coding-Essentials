@@ -153,5 +153,8 @@ These ones are supposed to be the less efficient algorithms if their O(nlogn) co
 * Selection Sort
 * Traversing a simple 2D array
 
+![BIG O](https://github.com/user-attachments/assets/038c2251-6b97-45f3-abed-bb9f81d24974)
+
+
 Source:
 * [Big O cheatSheet](https://www.bigocheatsheet.com/)
