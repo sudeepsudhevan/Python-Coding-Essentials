@@ -138,7 +138,7 @@ O(1)
 
 ```py
 my_list.pop() # only remove the end term so not required reindexing
-my_list.append(5) # only adding the end term
+my_list.append(5) # only adding at the end so not required reindexing
 ```
 
 O(n)
