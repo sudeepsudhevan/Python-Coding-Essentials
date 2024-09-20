@@ -110,6 +110,30 @@ print("Sorted array is:", array)
 
 ```
 
+## 7. Big O: Different Term of inputs
+
+O(a + b)
+```py
+def print_items(a,b):
+    for i in range(a):
+        print(i)
+    for j in range(b):
+        print(j)
+
+print_items(10,20)
+```
+
+O(a * b)
+```py
+def print_items(a,b):
+    for i in range(a):
+        for j in range(b):
+            print(i,j)
+
+print_items(10,20)
+```
+
+
 ![Big O](https://github.com/user-attachments/assets/782ae9cc-423f-4d50-a389-17e6b8b9e0a8)
 
 ### O(1) 
