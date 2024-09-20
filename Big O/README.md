@@ -110,6 +110,7 @@ print("Sorted array is:", array)
 
 ```
 
+![Big O](https://github.com/user-attachments/assets/782ae9cc-423f-4d50-a389-17e6b8b9e0a8)
 
 ### O(1) 
 
