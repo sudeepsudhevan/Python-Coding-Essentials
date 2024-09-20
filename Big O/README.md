@@ -152,3 +152,6 @@ These ones are supposed to be the less efficient algorithms if their O(nlogn) co
 * Insertion Sort
 * Selection Sort
 * Traversing a simple 2D array
+
+Source:
+* [Big O cheatSheet](https://www.bigocheatsheet.com/)
